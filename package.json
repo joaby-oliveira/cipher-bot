@@ -1,0 +1,21 @@
+{
+  "name": "cipher-bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/joaby-oliveira/cipher-bot.git",
+  "author": "Joaby Oliveira <joabyoliveira2004@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "ts-node-dev --inspect --transpile-only --ignore-watch node_modules src/server.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.21",
+    "@types/puppeteer": "^5.4.5",
+    "ts-node-dev": "^1.1.8",
+    "tsconfig-paths": "^3.14.0",
+    "typescript": "^4.6.2"
+  },
+  "dependencies": {
+    "puppeteer": "^13.5.1"
+  }
+}
